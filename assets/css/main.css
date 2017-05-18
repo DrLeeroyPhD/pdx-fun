@@ -101,7 +101,11 @@ a:after {
 	color: white;
     font-size: 1.4em;
     margin-left: 15px;
-    margin-top: 15px;
+}
+
+.navbar-toggle{
+    margin-top: 40px;
+    margin-right: 20px;
 }
 
 /* Helpers */
@@ -152,4 +156,12 @@ i {
 	font-size: 45px;
 	font-weight: 300;
 	letter-spacing: 1px;
+}
+
+/* Media Queies */
+
+@media only screen and (min-width: 768px) {
+    .navbar-default .navbar-nav > li > a {
+        margin-top: 30px;
+    }
 }
