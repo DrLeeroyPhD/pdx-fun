@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="keywords" content="portland, inflatables, local, party, gear"
     <link rel="shortcut icon" href="assets/img/pdxfun_logo.png">
 
     <title>PDX Fun!</title>
@@ -30,7 +31,7 @@
 
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container" id="home">
+      <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
@@ -43,20 +44,20 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#inventory">Inventory</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#" class="clickynav" name="home">Home</a></li>
+            <li><a href="#" class="clickynav" name="about">About</a></li>
+            <li><a href="#" class="clickynav" name="inventory">Inventory</a></li>
+            <li><a href="#" class="clickynav" name="contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
 
 	<div id="headerwrap">
-		<div class="container">
+		<div class="container" id="home">
 			<div class="row">
 				<div class="col-lg-6">
-					<h1>Pump Up The Fun!</h1>
+					<h1 class="shadow">Pump Up The Fun!</h1>
 					<form class="form-inline" role="form">
 					  <div class="form-group">
 					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
@@ -78,22 +79,24 @@
 			</div>
 		</div><!-- /row -->
 		
+		<!-- 450px x 450px optimal -->
+		
 		<div class="row mt centered">
 			<div class="col-lg-4">
-				<img src="assets/img/ser01.png" width="180" alt="">
+				<img src="assets/img/bounce.jpeg" width="180" alt="">
 				<h4>1 - Inflatables</h4>
 				<p>Bouncy houses, slides, 5ft, 50ft, we got it here.</p>
 			</div><!--/col-lg-4 -->
 
 			<div class="col-lg-4">
-				<img src="assets/img/ser02.png" width="180" alt="">
+				<img src="assets/img/pump.jpg" width="180" alt="">
 				<h4>2 - Air Pumps</h4>
 				<p>Blowing these things up suck when you don't have a machine to do it for you, besides, you value your lungs, right?!</p>
 
 			</div><!--/col-lg-4 -->
 
 			<div class="col-lg-4">
-				<img src="assets/img/ser03.png" width="180" alt="">
+				<img src="assets/img/wine.png" width="180" alt="">
 				<h4>3 - Wine</h4>
 				<p>Tired of dealing with riled up, screaming children? We've got you there too. Extra fee if you need someone to vent to while you drink.</p>
 
@@ -117,7 +120,7 @@
 		<hr>
 	</div><!-- /container -->
 	
-	<div class="container">
+	<div class="container" id="inventory">
 		<div class="row mt centered">
 			<div class="col-lg-6 col-lg-offset-3">
 				<h1>Check Out Our Selection</h1>
@@ -126,7 +129,7 @@
 		</div><!-- /row -->
 	
 		<!-- CAROUSEL -->
-		<div class="row mt centered" id="inventory">
+		<div class="row mt centered">
 			<div class="col-lg-6 col-lg-offset-3">
 				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 				  <!-- Indicators -->
@@ -223,5 +226,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
   </body>
 </html>
