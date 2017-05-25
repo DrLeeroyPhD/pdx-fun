@@ -8,15 +8,11 @@ $(".clickynav").click(function(){
 
 // Scroll Reveal Animations
 window.sr = ScrollReveal();
-sr.reveal('.catLogo', {
-    scale: '0.4',
-    easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)'
-});
-sr.reveal('#about', {
+sr.reveal('#inventory', {
     origin: 'left',
     distance: '20%'
 });
-sr.reveal('#inventory', {
+sr.reveal('#about', {
     origin: 'right',
     distance: '20%'
 });
