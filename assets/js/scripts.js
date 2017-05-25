@@ -28,3 +28,7 @@ sr.reveal('#contact', {
     distance: '20%'
 });
 
+/*
+    $('.explode').hide('explode', { "pieces":100 }, 800);
+    https://stackoverflow.com/questions/8072770/explode-animation-with-jquery
+*/
