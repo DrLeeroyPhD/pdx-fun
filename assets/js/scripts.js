@@ -1,9 +1,16 @@
 // Navigation Scrolling
 $(".clickynav").click(function(){
     var jump = "#" + $(this).attr("name");
-    $('html, body').animate({
-        scrollTop: $(jump).offset().top - 80
-    }, 600);
+    console.log(jump);
+    if(jump == '#home'){
+        $('html, body').animate({
+            scrollTop: $(jump).offset().top - 200
+        }, 600);
+    } else{
+        $('html, body').animate({
+            scrollTop: $(jump).offset().top - 80
+        }, 600);
+    }
 });
 
 // Scroll Reveal Animations
