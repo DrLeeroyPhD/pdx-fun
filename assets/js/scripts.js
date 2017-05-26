@@ -33,6 +33,11 @@ $('#reserveModal').on('shown.bs.modal', function () {
   $('#reserveModal').focus()
 })
 
+// Bootstrap Navigation Collapse Fix
+$(".navbar-nav li a").click(function(event) {
+    $(".navbar-collapse").collapse('hide');
+});
+
 // Copyright Year
 var dt = new Date();
 var copy = document.getElementById('copy');
