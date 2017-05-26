@@ -32,3 +32,8 @@ sr.reveal('#contact', {
 $('#reserveModal').on('shown.bs.modal', function () {
   $('#reserveModal').focus()
 })
+
+// Copyright Year
+var dt = new Date();
+var copy = document.getElementById('copy');
+copy.innerHTML = dt.getFullYear();
