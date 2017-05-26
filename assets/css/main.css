@@ -18,7 +18,7 @@ body {
     color: 	#5bc0de;
 }
 
-body, .container{
+body, .container, img{
     max-width: 100% !important;
 }
 
@@ -185,6 +185,13 @@ i {
 
 #about{
     background-color: #fec28e;
+}
+
+/* Modal Adjustments */
+.modalMap{
+    max-width: 100%;
+    display: block;
+    position: relative;
 }
 
 /* Media Queies */
