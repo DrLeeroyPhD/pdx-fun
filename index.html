@@ -57,12 +57,17 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<h1 class="shadow">Pump Up The Fun!</h1>
+					
+					
+					<!-- Email Bar & Button -->
 					<form class="form-inline" role="form">
 					  <div class="form-group">
 					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
 					  </div>
 					  <button type="submit" class="btn btn-info btn-lg">Invite Me!</button>
 					</form>
+					
+					
 				</div><!-- /col-lg-6 -->
 				
 			</div><!-- /row -->
@@ -83,26 +88,57 @@
 		<div class="row mt centered">
 			<div class="col-lg-4">
 				<img src="assets/img/bounce.jpeg" width="180" alt="">
-				<h4 class="blue">1 - Inflatables</h4>
+				<h4 class="blue">Slides Wet/Dry</h4>
 				<p>Bouncy houses, slides, 5ft, 50ft, we got it here.</p>
+				<button type="button" class="btn btn-info" data-toggle="modal" data-target="#reserveModal" name="slidesWetDry">
+				  Reserve Now!
+				</button>
 			</div><!--/col-lg-4 -->
 
 			<div class="col-lg-4">
 				<img src="assets/img/pump.jpg" width="180" alt="">
-				<h4 class="blue">2 - Air Pumps</h4>
+				<h4 class="blue">Splash Pool</h4>
 				<p>Blowing these things up suck when you don't have a machine to do it for you, besides, you value your lungs, right?!</p>
-
+				<button type="button" class="btn btn-info" data-toggle="modal" data-target="#reserveModal" name="splashPool">
+				  Reserve Now!
+				</button>
 			</div><!--/col-lg-4 -->
 
 			<div class="col-lg-4">
 				<img src="assets/img/wine.png" width="180" alt="">
-				<h4 class="blue">3 - Wine</h4>
+				<h4 class="blue">Disco Bounce House</h4>
 				<p>Tired of dealing with riled up, screaming children? We've got you there too. Extra fee if you need someone to vent to while you drink.</p>
+				<button type="button" class="btn btn-info" data-toggle="modal" data-target="#reserveModal" name="discoBounceHouse">
+				  Reserve Now!
+				</button>
+			</div><!--/col-lg-4 -->
+		</div><!-- /row -->
+		
+		<div class="row mt centered">
+			<div class="col-lg-4">
+				<img src="assets/img/bounce.jpeg" width="180" alt="">
+				<h4 class="blue">Add-Ons</h4>
+				<p>Bouncy houses, slides, 5ft, 50ft, we got it here.</p>
+				<button type="button" class="btn btn-info" data-toggle="modal" data-target="#reserveModal" name="addons">
+				  Reserve Now!
+				</button>
+			</div><!--/col-lg-4 -->
+
+			<div class="col-lg-4">
+				<img src="assets/img/pump.jpg" width="180" alt="">
+				<h4 class="blue">Photo Ops</h4>
+				<p>Blowing these things up suck when you don't have a machine to do it for you, besides, you value your lungs, right?!</p>
+				<button type="button" class="btn btn-info" data-toggle="modal" data-target="#reserveModal" name="photoOps">
+				  Reserve Now!
+				</button>
+			</div><!--/col-lg-4 -->
 
 			</div><!--/col-lg-4 -->
 		</div><!-- /row -->
 	</div><!-- /container -->
 	
+	
+	<!-- Email Bar & Button -->
 	<div class="container">
 		<hr>
 		<div class="row centered">
@@ -118,6 +154,7 @@
 		</div><!-- /row -->
 		<hr>
 	</div><!-- /container -->
+	
 	
 	<div class="container" id="about">
 		<div class="row mt centered">
@@ -202,6 +239,33 @@
 		</div><!-- /row -->
 		<hr>
 	</div><!-- /container -->
+	
+	<!-- Modal -->
+	<div class="modal fade" id="reserveModal" tabindex="-1" role="dialog" aria-labelledby="reserveModal" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content" tabindex="1">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Item Reservation</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <form>
+	        	<h2>Email</h2>
+	        	<input type="email" name=""/>
+	        	<h2>Item of Interest</h2>
+	        	<input type="text" name=""/>
+	        	<input type="submit" value="Submit"/>
+	        </form>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Reserve It!</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 	
 
     <!-- Bootstrap core JavaScript

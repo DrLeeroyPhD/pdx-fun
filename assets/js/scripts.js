@@ -28,3 +28,7 @@ sr.reveal('#contact', {
     distance: '20%'
 });
 
+// Bootstrap Modal Focus Fix
+$('#reserveModal').on('shown.bs.modal', function () {
+  $('#reserveModal').focus()
+})
