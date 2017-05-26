@@ -18,6 +18,10 @@ body {
     color: 	#5bc0de;
 }
 
+body, .container{
+    max-width: 100% !important;
+}
+
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
@@ -88,6 +92,15 @@ a:after {
     padding: 0;
 }
 
+.navbar-wrapper{
+    top: 0;
+    right: 0;
+}
+
+.navbar, .navbar-wrapper, .navbar-fixed-top, .navbar-default, .navbar-header, .collapse, .navbar-collapse, .nav, .navbar-right, .navbar-nav{
+    max-width: 100% !important;
+}
+
 .navbar-default {
 	background-color: #fec28e;
 	border-color: transparent;
@@ -105,7 +118,7 @@ a:after {
 
 .navbar-toggle{
     margin-top: 20px;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .navbar-header > a > h1{
@@ -179,5 +192,12 @@ i {
 @media only screen and (min-width: 768px) {
     .navbar-default .navbar-nav > li > a {
         margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    button.resButton{
+        margin-top: -20px !important;
+        margin-bottom: 40px !important;
     }
 }
