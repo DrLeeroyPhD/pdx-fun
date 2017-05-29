@@ -97,7 +97,7 @@ a:after {
     right: 0;
 }
 
-.navbar, .navbar-wrapper, .navbar-fixed-top, .navbar-default, .navbar-header, .collapse, .navbar-collapse, .nav, .navbar-right, .navbar-nav{
+.navbar, .navbar-wrapper, .navbar-fixed-top, .navbar-default, .navbar-header, .collapse, .navbar-collapse, .nav, .navbar-right, .navbar-nav, .container-fluid{
     max-width: 100% !important;
 }
 
