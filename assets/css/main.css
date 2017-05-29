@@ -97,10 +97,6 @@ a:after {
     right: 0;
 }
 
-.navbar, .navbar-wrapper, .navbar-fixed-top, .navbar-default, .navbar-header, .collapse, .navbar-collapse, .nav, .navbar-right, .navbar-nav, .container-fluid{
-    max-width: 100% !important;
-}
-
 .navbar-default {
 	background-color: #fec28e;
 	border-color: transparent;
@@ -118,7 +114,7 @@ a:after {
 
 .navbar-toggle{
     margin-top: 20px;
-    margin-right: 20px;
+    margin-right: -10px;
 }
 
 .navbar-header > a > h1{

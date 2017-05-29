@@ -14,13 +14,16 @@ $(".clickynav").click(function(){
 });
 
 // Scroll Reveal Animations
+/*
+    origin can not be from the right, it extends the width of the navbar
+*/
 window.sr = ScrollReveal();
 sr.reveal('#inventory', {
     origin: 'left',
     distance: '20%'
 });
 sr.reveal('#about', {
-    origin: 'right',
+    origin: 'left',
     distance: '20%'
 });
 sr.reveal('#contact', {
