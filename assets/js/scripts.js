@@ -26,7 +26,7 @@ sr.reveal('#about', {
     origin: 'left',
     distance: '20%'
 });
-sr.reveal('#contact', {
+sr.reveal('#reviews', {
     origin: 'bottom',
     distance: '20%'
 });

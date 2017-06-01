@@ -148,7 +148,8 @@ i {
 /* HeaderWrap */
 #headerwrap {
 	background-color: #fec28e;
-	background: url('../img/balloons.jpeg') no-repeat center top fixed;
+	background: url('../img/balloons1080.jpg') no-repeat center top fixed;
+	max-width: 100%;
 	margin-top: -20px;
 	padding-top:200px;
 	background-attachment: relative;
@@ -177,8 +178,21 @@ i {
 }
 
 /* Category-Specific */
+#inventory img{
+    border-radius: 15px;
+    box-shadow: 1px 1px 6px black;
+}
+
+#inventory button:hover{
+    box-shadow: 0 3px 5px #777;
+}
+
 #about{
     background-color: #fec28e;
+}
+
+.fam{
+    max-height: 600px !important;
 }
 
 /* Modal Adjustments */
@@ -195,9 +209,14 @@ i {
     }
 }
 
+@media only screen and (min-width: 1920px) {
+    #headerwrap {
+        background: url('../img/balloons2500.jpg') no-repeat center top fixed;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     button.resButton{
-        margin-top: -20px !important;
         margin-bottom: 40px !important;
     }
 }
