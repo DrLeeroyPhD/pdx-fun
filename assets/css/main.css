@@ -189,10 +189,16 @@ i {
 
 #about{
     background-color: #fec28e;
+    width: 100%;
 }
 
 .fam{
     max-height: 600px !important;
+}
+
+span.kat{
+    color:#b14ce0;
+    text-shadow: 1px 1px 2px #290838;
 }
 
 /* Modal Adjustments */
