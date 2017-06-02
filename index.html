@@ -18,7 +18,7 @@
     <link href="assets/css/main.css" rel="stylesheet">
 
     <!-- Fonts from Google Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Russo+One:300,400,900' rel='stylesheet' type='text/css'>
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -133,11 +133,21 @@
 				  Reserve Now!
 				</button>
 			</div><!--/col-lg-4 -->
-			<div class="row-fluid centered text-center">
-				<br>
-				<a href="#" data-toggle="modal" data-target="#mapModal"><h4>See where we deliver!</h4></a><br>
+			
+			<div class="col-lg-4">
+				<img src="assets/img/portland_map.jpg" width="180" alt="">
+				<h4 class="blue">See Where We Deliver</h4>
 				<p><em>* We can deliver further for an additional fee.</em></p>
-			</div>
+				<button type="button" class="btn btn-info resButton" data-toggle="modal" data-target="#mapModal">
+				  Show Me!
+				</button>
+			</div><!--/col-lg-4 -->
+			
+			<!--<div class="row-fluid centered text-center">-->
+			<!--	<br>-->
+			<!--	<a href="#" data-toggle="modal" data-target="#mapModal"><h4>See where we deliver!</h4></a><br>-->
+			<!--	<p><em>* We can deliver further for an additional fee.</em></p>-->
+			<!--</div>-->
 			
 			</div><!--/col-lg-4 -->
 		</div><!-- /row -->
@@ -175,7 +185,7 @@
 		</div>
 	</div><!-- /container -->
 
-	<div class="container">
+	<div class="container" id="reviews">
 		<div class="row mt centered">
 			<div class="col-lg-6 col-lg-offset-3">
 				<h1 class="blue">Don't Just Take it From Us</h1>
@@ -183,7 +193,7 @@
 			</div>
 		</div><!-- /row -->
 		
-		<div class="row mt centered" id="reviews">
+		<div class="row mt centered">
 			<div class="col-lg-4">
 				<img class="img-circle" src="assets/img/pic1.jpg" width="140" alt="">
 				<h4 class="blue">Michael Robson</h4>
@@ -274,7 +284,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <img src="assets/img/portland_map.jpg" class="modalMap"></img>
+        <a href="assets/img/portland_map.jpg" target="_blank"><img src="assets/img/portland_map.jpg" class="modalMap" /></a>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

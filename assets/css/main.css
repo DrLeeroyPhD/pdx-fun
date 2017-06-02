@@ -1,7 +1,7 @@
 /* Globals */
 body {
   background-color: #f2f2f2;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Russo One', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -24,7 +24,7 @@ body, .container{
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Russo One', sans-serif;
     font-weight: 300;
     color: #333;
 }
@@ -148,7 +148,7 @@ i {
 /* HeaderWrap */
 #headerwrap {
 	background-color: #fec28e;
-	background: url('../img/balloons1080.jpg') no-repeat center top fixed;
+	background: url('../img/sky.jpeg') no-repeat center top fixed;
 	max-width: 100%;
 	margin-top: -20px;
 	padding-top:200px;
@@ -208,6 +208,10 @@ span.kat{
     position: relative;
 }
 
+.modalMap:hover{
+    cursor: -webkit-zoom-in; cursor: -moz-zoom-in;
+}
+
 /* Media Queies */
 @media only screen and (min-width: 768px) {
     .navbar-default .navbar-nav > li > a {
@@ -215,11 +219,11 @@ span.kat{
     }
 }
 
-@media only screen and (min-width: 1920px) {
-    #headerwrap {
-        background: url('../img/balloons2500.jpg') no-repeat center top fixed;
-    }
-}
+/*@media only screen and (min-width: 1920px) {*/
+/*    #headerwrap {*/
+/*        background: url('../img/balloons2500.jpg') no-repeat center top fixed;*/
+/*    }*/
+/*}*/
 
 @media only screen and (max-width: 768px) {
     button.resButton{
