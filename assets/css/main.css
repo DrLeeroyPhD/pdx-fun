@@ -1,7 +1,7 @@
 /* Globals */
 body {
   background-color: #f2f2f2;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -24,7 +24,7 @@ body, .container{
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 300;
     color: #333;
 }
